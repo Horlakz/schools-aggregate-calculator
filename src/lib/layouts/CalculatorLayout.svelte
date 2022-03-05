@@ -9,7 +9,7 @@
     To see the requirements for your score,
     <a href="google.com" target="_blank">click here</a>
   </p>
-  <form>
+  <form on:submit|preventDefault>
     <slot />
 
     <!-- Calculator Button -->
